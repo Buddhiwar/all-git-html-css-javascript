@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform-2d</title>
+</head>
+<style>
+    /*total 12 value
+    1.rotate(angle) 2.translate(x,y) 3. translate(x) 4.translate(y) 5. scale(x,y) 6. scaleX(x)
+    7. scaleY(y) 8. skew(x angle, y angle) 9. skewX(angle) 10. skewY(angle) 11.matrix (n,n,n,n,n,n,) 12. none */
+    #box1{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: rotate(60deg);
+    }
+    #box2{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: skewX(30deg);
+    }
+    #box3{
+        width:200px;
+        height:400px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: skewX(30deg);
+    }
+    #box4{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: skew(10deg,20deg);
+    }
+    #box5{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: translate(30px, 60px);
+        
+    }
+    #box6{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: translateX(30px);
+        
+    }
+    #box7{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: translateY(60px);
+        
+    }
+    #box8{
+        width:400px;
+        height:200px;
+        background-color: blue;
+        margin: 0px 100px;
+        transform: scale(5);
+        transform-origin: 0% 0%;
+        
+    }
+    
+    
+</style>
+<body>
+    <h1><u>TRANSFORM 2D:-</u></h1>
+    <div id="box1"><h1>BOX rotate(60deg)</h1></div>
+    <hr><hr>
+    <div id="box2"><h1>BOX skewX(30deg)</h1></div>
+    <hr><hr>
+    <div id="box3"><h1>BOX skewY(30deg)</h1></div>
+    <hr><hr>
+    <div id="box4"><h1>BOX skew(30deg, 60deg)</h1></div>
+    <hr><hr>
+    <div id="box5"><h1>BOX translate(30px, 60px)</h1></div>
+    <hr><hr>
+    <div id="box6"><h1>BOX translateX(30px)</h1></div>
+    <hr><hr>
+    <div id="box7"><h1>BOX translateY(60px)</h1></div>
+    <hr><hr>
+    <div id="box8"><h1>BOX scale(5)</h1></div>
+    <hr><hr>
+    
+</body>
+</html>
