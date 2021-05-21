@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css about transation</title>
+    <style>
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: ease;
+        }
+        #box1:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+        #box2{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: linear;
+        }
+        #box2:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+        #box3{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: ease-in;
+        }
+        #box3:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+        #box4{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: ease-out;
+        }
+        #box4:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+        #box5{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: ease-in-out;
+        }
+        #box5:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+        #box6{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: steps(4);
+        }
+        #box6:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+        #box7{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            transition-property: width,color;
+            transition-duration: 2s;
+            /*transition: all 2s;*/
+            transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+        }
+        #box7:hover{
+            width: 400px;
+            background-color: red;
+            color:aqua;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1><u>THE CSS ABOUT TRANSATION:-</u></h1>
+    <br><br>
+    <Div id="box1"><h3>Ease</h3></Div>
+    <Div id="box2"><h3>Linear</h3></Div>
+    <Div id="box3"><h3>Ease-in</h3></Div>
+    <Div id="box4"><h3>Ease-out</h3></Div>
+    <Div id="box5"><h3>Ease-in-out</h3></Div>
+    <Div id="box6"><h3>Steps</h3></Div>
+    <Div id="box7"><h3>Cubic-bezier</h3></Div>
+
+    
+</body>
+</html>
